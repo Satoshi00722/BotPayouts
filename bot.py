@@ -6,7 +6,7 @@ from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 TOKEN = "8309574268:AAEfunUPSaOY0aj5nwL1Dt8tR5YC-qL8fUI"
 SOURCE_CHANNEL_ID = -1003541008559  # ID твоего канала
-CHANNEL_LINK = "https://t.me/+O4kyMr0n_r02Y2M6"  # ссылка на канал
+CHANNEL_LINK = "https://t.me/BitSwap007_bot"  # ссылка на канал
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -72,4 +72,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
